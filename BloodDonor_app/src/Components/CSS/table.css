@@ -1,0 +1,33 @@
+table,tr,td,tbody,th{
+    border: 2px solid black;
+   
+    font-size: large;
+    margin-top: 10px;
+    padding: 26px;
+    
+}
+
+.container{
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+}
+thead{
+    background-color: rgb(28, 70, 70);
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+tbody{
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    font-weight: 700;
+    
+}
+table{
+    box-shadow: -7px 6px;
+}

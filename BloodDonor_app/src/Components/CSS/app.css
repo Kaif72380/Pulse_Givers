@@ -1,0 +1,10 @@
+body{
+ /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,75,80,1 ) 0%, rgba(243,146,32,1) 100.2% ); */
+
+ /* background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); */
+ background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+  
