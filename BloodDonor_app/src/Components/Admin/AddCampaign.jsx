@@ -6,7 +6,7 @@ import axios from "axios"
 
 export default function AddCampaign(){
 
-    const url="http://localhost:3000/admin/addcampaign"
+    const url="https://pulse-givers.onrender.com/admin/addcampaign"
     let[campaign,setCampaign]=useState({
 
         name:"",
