@@ -13,7 +13,7 @@ export default function DonorRegistration(){
     userGroup:"",
     }
   )
-    let URL ="http://localhost:3000/donorApi/addDonor"
+    let URL ="https://pulse-givers.onrender.com/donorApi/addDonor"
    const handleData= (e)=>{
       setDonor({...donor, [e.target.name]: e.target.value})
    }
