@@ -31,7 +31,7 @@ export default function AllDonors(){
         alert(id)
         if(window.confirm("Do you want to delete?"))
             {
-              const isDelete = await axios.delete(`http://localhost:3000/admin/deleteDonor/${id}`)
+              const isDelete = await axios.delete(`https://pulse-givers.onrender.com/admin/deleteDonor/${id}`)
               if(isDelete.data.code==200){
                 setContact(contactData.filter(item=> item._id==id))
                 alert("Record deleted successfully")
