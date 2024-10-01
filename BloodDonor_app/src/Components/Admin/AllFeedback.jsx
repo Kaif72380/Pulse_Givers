@@ -5,7 +5,7 @@ import AdminHeader from "./AdminHeader"
 export default function AllFeedback(){
 
         const [feedback, setFeedback]=useState([])
-        const URL="http://localhost:3000/admin/viewFeedback"
+        const URL="https://pulse-givers.onrender.com/admin/viewFeedback"
 
          useEffect(()=>{
             const fetchData=async()=>{
