@@ -8,7 +8,7 @@ export default function ContactUs(){
       userPhone:"",
       userQuery:"",  
         })
-const URL = "http://localhost:3000/donorApi/addContact"
+const URL = "https://pulse-givers.onrender.com/donorApi/addContact"
         const handle_change=(e)=>{
       setFormdata({...formdata, [e.target.name]: e.target.value})
       
