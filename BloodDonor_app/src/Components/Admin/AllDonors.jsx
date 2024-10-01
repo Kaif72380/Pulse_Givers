@@ -7,7 +7,7 @@ export default function AllDonors(){
 
     const [donor,setDonor]=useState([])
 
-    const URL="http://localhost:3000/admin/viewDonor"
+    const URL="https://pulse-givers.onrender.com/admin/viewDonor"
 
     useEffect(()=>{
         const fetchData=async ()=>{
