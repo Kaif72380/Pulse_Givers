@@ -6,7 +6,7 @@ import Header from "./Header"
 
 export default function ViewCampaign(){
   const [campaign, setCampaign] = useState([]);
-        let URL ="http://localhost:3000/admin/viewCampaign" 
+        let URL ="https://pulse-givers.onrender.com/admin/viewCampaign" 
 
         useEffect(() => {
           const fetchData = async() => {
