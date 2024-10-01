@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 import axios from "axios"
 export default function Login(){
 
-const URL="http://localhost:3000/admin/Login"
+const URL="https://pulse-givers.onrender.com/admin/Login"
 
 
 
