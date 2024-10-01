@@ -30,7 +30,7 @@ export default function AllContacts(){
         alert(id)
         if(window.confirm("Do you want to delete?"))
             {
-              const isDelete = await axios.delete(`http://localhost:3000/admin/deleteContact/${id}`)
+              const isDelete = await axios.delete(`https://pulse-givers.onrender.com/admin/deleteContact/${id}`)
               if(isDelete.data.code==200){
                 setContact(contactData.filter(item=> item._id==id))
                 alert("Record deleted successfully")
