@@ -7,7 +7,7 @@ export default function AllContacts(){
 
     const [contact,setContact]=useState([])
 
-    const URL="http://localhost:3000/admin/viewContact"
+    const URL="https://pulse-givers.onrender.com/admin/viewContact"
 
     useEffect(()=>{
         const fetchData=async ()=>{
