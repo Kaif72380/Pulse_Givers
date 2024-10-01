@@ -11,7 +11,7 @@ export default function Feedback(){
       userRating:""
     }
   )
-    let URL="http://localhost:3000/donorApi/addFeedback"
+    let URL="https://pulse-givers.onrender.com/donorApi/addFeedback"
     const handleData=(e)=>{    
       setFeedback({...feedback, [e.target.name]: e.target.value})
     }
