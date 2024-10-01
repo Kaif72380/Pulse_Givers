@@ -10,7 +10,7 @@ function EditContact() {
   const [contact,setContact]=useState({id:"",userName:"",userEmail:"",userPhone:"",userQuery:""})
     
 
-    const EDIT_URL="http://localhost:3000/admin/editcontact"
+    const EDIT_URL="https://pulse-givers.onrender.com/admin/editcontact"
 
     useEffect(()=>{
         fetchData()
@@ -20,7 +20,7 @@ function EditContact() {
         
            
             try {
-                const response = await axios.post(`http://localhost:3000/admin/getContact/${id}`)
+                const response = await axios.post(`https://pulse-givers.onrender.com/admin/getContact/${id}`)
                 setContact(response.data)
             } catch (error) {
                 console.log(error);
